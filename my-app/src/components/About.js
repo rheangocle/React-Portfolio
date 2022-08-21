@@ -31,7 +31,7 @@ function About() {
           <img
             className="object-cover object-center rounded-full"
             alt="Profile picture"
-            src="./image0.jpeg"
+            src="./images/image0.jpeg"
           />
         </div>
       </div>

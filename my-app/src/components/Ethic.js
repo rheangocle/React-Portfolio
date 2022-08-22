@@ -2,10 +2,10 @@ import React from 'react';
 
 function Ethic() {
   return ( 
-    <section id='ethic' className='bg-emerald-900 text-neutral-900'>
+    <section id='ethic' className='bg-emerald-900 text-slate-50'>
       <div className="container mx-auto px-20 py-20 flex md:flex-row flex-col items-end">
         <div className="lg:flex-grow md:w-2/3 flex flex-col md:items-end mb-16 md:mb-0 items-center">
-          <h1 className="z-0 lg:text-5xl md:text-4xl sm:text-4xl font-bold text-right text-stone-400">
+          <h1 className="z-0 lg:text-5xl md:text-4xl sm:text-4xl font-bold text-right text-slate-100">
             Motivation & Work Ethic
           </h1>
           <p className="mb-5 md:text-left text-neutral-800 px-10 bg-white/70 rounded-lg p-10 hover:text-lg hover:bg-white/75">

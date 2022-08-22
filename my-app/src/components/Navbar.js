@@ -32,8 +32,9 @@ function Navbar() {
               <li className='nav-item'>
                 <a
                   className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-stone-500 hover:opacity-75'
-                  href='#pablo'
+                  href='https://www.linkedin.com/in/rhea-le-39165280/'
                   target='_blank'
+                  rel='noopener noreferrer'
                 >
                   <i className='fa-brands fa-linkedin-in text-lg leading-lg text-stone-500 opacity-75'></i>
                   <span className='ml-2'>LinkedIn</span>

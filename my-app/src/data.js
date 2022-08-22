@@ -36,12 +36,12 @@ export const skills = [
     link: "./icons/jquery.svg",
   },
   {
-    name: "Express.js",
-    link: "./",
-  },
-  {
     name: "Handlebars.js",
     link: "./icons/handlebars.svg",
+  },
+  {
+    name: "Express.js",
+    link: "./",
   },
   {
     name: "Bulma",

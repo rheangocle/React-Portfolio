@@ -14,7 +14,7 @@ export default function Skills() {
               <span className='font-semibold'>
                 {skill.name}
                 <img
-                  className='mt-1 py-3 animate-bounce'
+                  className='pl-1 mt-1 mb-2 py-1 animate-bounce'
                   src={skill.link}
                   alt=''
                 />

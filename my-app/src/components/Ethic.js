@@ -2,7 +2,7 @@ import React from "react";
 
 function Ethic() {
   return (
-    <section id='ethic' className='bg-emerald-900 text-stone-200'>
+    <section id='ethic' className='bg-orange-300 text-stone-200'>
       <div className='container mx-auto px-20 py-20 flex md:flex-row flex-col items-end'>
         <div className='lg:flex-grow md:w-2/3 flex flex-col md:items-end md:mb-0 items-center'>
           <h1 className='z-0 lg:text-5xl md:text-4xl sm:text-4xl font-bold text-right text-slate-100'>

@@ -7,7 +7,7 @@ function Navbar() {
 
   return (
     <section id='navbar'>
-      <nav className='relative flex flex-wrap items-center justify-between px-4 py-3 bg-lime-200 mb-3'>
+      <nav className='relative flex flex-wrap items-center justify-between px-4 py-3 bg-blue-300 mb-3'>
         <div className='container px-4 mx-auto flex flex-wrap items-center justify-between'>
           <div className='w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start'>
             <button
@@ -43,50 +43,6 @@ function Navbar() {
                     </a>
                   </li>
                 ))}
-                {/* <li>
-                  <a
-                    href='/'
-                    className='block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'
-                    onClick={() => setSidebar(!sidebar)}
-                  >
-                    Home
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href='#about'
-                    className='block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'
-                    onClick={() => setSidebar(!sidebar)}
-                  >
-                    About me
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href='#work'
-                    className='block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'
-                    onClick={() => setSidebar(!sidebar)}
-                  >
-                    Work
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href='#skills'
-                    className='block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'
-                    onClick={() => setSidebar(!sidebar)}
-                  >
-                    Skills
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href='#skills'
-                    className='block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'
-                  >
-                    Contact me
-                  </a>
-                </li> */}
               </ul>
             </div>
 

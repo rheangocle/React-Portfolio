@@ -83,3 +83,36 @@ export const projects = [
     github: "https://github.com/rheangocle/Employee-Tracker",
   },
 ];
+
+export const sections = [
+  {
+    id: 1,
+    title: "Home",
+    href: "#home",
+  },
+  {
+    id: 2,
+    title: "About",
+    href: "#about",
+  },
+  {
+    id: 3,
+    title: "Motivations",
+    href: "#ethic",
+  },
+  {
+    id: 4,
+    title: "Work",
+    href: "#projects",
+  },
+  {
+    id: 5,
+    title: "Skills",
+    href: "#skills",
+  },
+  {
+    id: 6,
+    title: "Contact me",
+    href: "#contact",
+  },
+];

@@ -1,18 +1,95 @@
-import React from "react";
+import React, { useState } from "react";
+import { sections } from "../data";
 
 function Navbar() {
-  const [navbarOpen, setNavbarOpen] = React.useState(false);
+  const [navbarOpen, setNavbarOpen] = useState(false);
+  const [sidebar, setSidebar] = useState(false);
+
   return (
     <section id='navbar'>
       <nav className='relative flex flex-wrap items-center justify-between px-4 py-3 bg-lime-200 mb-3'>
         <div className='container px-4 mx-auto flex flex-wrap items-center justify-between'>
           <div className='w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start'>
-            <a
+            <button
               className='text-md font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-stone-500'
-              href='/'
+              href=''
+              type='button'
+              onClick={() => setSidebar(!sidebar)}
             >
               Rhea Le
-            </a>
+              <icon className='text-stone-300 px-2 fas fa-angle-down'></icon>
+            </button>
+
+            {/* <!-- Dropdown menu --> */}
+            <div
+              id='dropdownNavbar'
+              className={
+                "z-10 fixed w-auto font-normal bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600 opacity-75" +
+                (sidebar ? " flex" : " hidden")
+              }
+            >
+              <ul
+                className='py-1 text-sm text-gray-700 dark:text-gray-400'
+                aria-labelledby='dropdownLargeButton'
+              >
+                {sections.map((section) => (
+                  <li key={section.id}>
+                    <a
+                      href={section.href}
+                      className='block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'
+                      onClick={() => setSidebar(!sidebar)}
+                    >
+                      {section.title}
+                    </a>
+                  </li>
+                ))}
+                {/* <li>
+                  <a
+                    href='/'
+                    className='block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'
+                    onClick={() => setSidebar(!sidebar)}
+                  >
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href='#about'
+                    className='block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'
+                    onClick={() => setSidebar(!sidebar)}
+                  >
+                    About me
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href='#work'
+                    className='block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'
+                    onClick={() => setSidebar(!sidebar)}
+                  >
+                    Work
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href='#skills'
+                    className='block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'
+                    onClick={() => setSidebar(!sidebar)}
+                  >
+                    Skills
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href='#skills'
+                    className='block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'
+                  >
+                    Contact me
+                  </a>
+                </li> */}
+              </ul>
+            </div>
+
             <button
               className='text-stone-500 cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none'
               type='button'

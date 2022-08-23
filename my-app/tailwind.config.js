@@ -3,7 +3,7 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     fontFamily: {
-      'sans': ['montserrat', 'sans-serif']
+      sans: ["montserrat", "sans-serif"],
     },
     // colors: {
     //   'peach': 'f4b393',
@@ -13,5 +13,5 @@ module.exports = {
     // },
     extend: {},
   },
-  plugins: [],
-}
+  plugins: [require("flowbite/plugin")],
+};

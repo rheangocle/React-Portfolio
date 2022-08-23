@@ -11,14 +11,14 @@ export default function Footer() {
               className='h-10 m-5 rounded'
               alt='RL logo/icon'
             />
-            <span className='self-center text-2xl font-semibold whitespace-nowrap text-white'>
+            <span className='self-center text-2xl font-semibold whitespace-nowrap text-stone-500'>
               Thanks for visiting!
             </span>
           </a>
         </div>
         <div className='grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3'>
           <div>
-            <h2 className='mb-6 text-sm font-semibold text-gray-900 uppercase text-white'>
+            <h2 className='mb-6 text-sm font-semibold text-stone-300 uppercase text-white'>
               Links
             </h2>
             <ul className='text-gray-400'>
@@ -44,14 +44,14 @@ export default function Footer() {
               </li>
               <li>
                 <a href='#' className='hover:underline'>
-                  <i className='fas fa-file-pdf text-lgtext-stone-500 opacity-75'></i>
+                  <i className='fas fa-file-pdf text-lg text-stone-500 opacity-75'></i>
                   <span className='ml-2'>Resume</span>
                 </a>
               </li>
             </ul>
           </div>
           <div>
-            <h2 className='mb-6 text-sm font-semibold text-gray-900 uppercase text-white'>
+            <h2 className='mb-6 text-sm font-semibold text-stone-300 uppercase text-white'>
               Info
             </h2>
             <ul className='text-gray-400'>

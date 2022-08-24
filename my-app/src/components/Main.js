@@ -40,9 +40,9 @@ function Main() {
       </nav>
 
       <div className='row flex justify-center '>
-        <h1 className='animate-wave self-end z-0 text-white font-marker lg:text-9xl transform -skew-y-12 scale-150 sm:text-xl md:text-5xl'>
+        <p className='animate-wave self-end text-white font-marker transform -skew-y-12 lg:scale-150 text-9xl sm:scale-100'>
           Rhea Le
-        </h1>
+        </p>
       </div>
       <div className='row flex justify-center'>
         <h2 className='pt-5 self-center font-bold text-xl text-stone-700'>

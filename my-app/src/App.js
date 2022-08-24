@@ -12,7 +12,7 @@ import Main from "./components/Main";
 
 function App() {
   return (
-    <main style={{ background: "#9559c5" }} className='text-gray-800 h-screen'>
+    <main className='text-gray-800'>
       {/* <Navbar /> */}
       <Main />
       <About />

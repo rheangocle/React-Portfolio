@@ -9,12 +9,12 @@ function Ethic() {
     >
       <div className='container mx-auto px-20 py-20 flex md:flex-row flex-col items-end'>
         <div className='lg:flex-grow md:w-2/3 flex flex-col md:items-end md:mb-0 items-center'>
-          <h1 className='font-heading font-bold z-0 lg:text-7xl md:text-4xl sm:text-4xl lg:text-8xl font-bold text-right text-amber-300'>
+          <h1 className='py-20 font-heading font-bold z-0 lg:text-8xl md:text-4xl sm:text-4xl lg:text-8xl font-bold text-right text-amber-300'>
             Work Ethic
           </h1>
           <p
             // style={{ background: "#f4b393" }}
-            className='md:text-left text-neutral-800 md:px-10 bg-stone-200/70 rounded-lg p-10 sm:px-5'
+            className='p-10 md:text-left text-neutral-800 md:px-10 bg-stone-200/70 sm:px-5'
           >
             "I am a very motivated and hard working individual. Coding is a way
             to express my creativeness, critical thinking, and hard work. It

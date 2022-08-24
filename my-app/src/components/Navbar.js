@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { sections } from "../data";
 
 function Navbar() {
   const [navbarOpen, setNavbarOpen] = useState(false);

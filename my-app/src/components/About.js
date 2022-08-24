@@ -5,21 +5,21 @@ function About() {
     <section
       id='about'
       style={{ background: "linear-gradient(#f4b393, #7714e4)" }}
-      className='p-20 grid gap-4 h-screen text-gray-900 '
+      className='p-10 h-screen text-gray-900 '
     >
-      <div className='gap-4 grid grid-cols-6'>
-        <div className='col-span-3 sm:col-span-6'>
-          <p className='font-heading font-bold title-font sm:text-4xl lg:text-8xl text-white '>
+      <div className='justify-items-center gap-6 grid grid-cols-6'>
+        <div className='col-span-6'>
+          <p className='font-heading font-bold title-font sm:text-4xl lg:text-8xl text-white'>
             A bit about me
           </p>
         </div>
         <img
-          className='sm:col-span-3 lg:col-span-3 row-span-1 self-end rounded-full w-48'
+          className='col-span-6 row-span-1 self-end rounded-full w-40 hover:animate-bounce'
           alt='Profile picture'
           src='./images/image0.jpeg'
         />
-        <div className='sm:col-span-6 col-span-6 row-span-3'>
-          <p className='mb-5 text-lg sm:text-s'>
+        <div className='px-10 sm:col-span-6 col-span-6 row-span-3'>
+          <p className='pb-5 lg:text-lg sm:text-s'>
             Born in Vietnam, raised in Denver, CO, and recently moved to
             Tallahassee, FL. I recently graduated from a Full Stack Web
             Development course and currently seeking remote and local entry
@@ -27,7 +27,7 @@ function About() {
             MySQL & NoSQL. My background is in biochemistry and pharmacy and
             spent 5+ years working in research and development.
           </p>
-          <p className='mb-5 text-lg sm:text-s'>
+          <p className='lg:text-lg sm:text-s'>
             <i className='fa-lg fas fa-play-circle animate-spin p-1'> </i>
             My side interests include social media management and video editing.
             I have experience using Adobe Premiere Pro, Adobe After Effects, &
@@ -37,13 +37,13 @@ function About() {
         <div className='sm:col-span-6 col-span-6 row-span-1 sm-row-span-3'>
           <a
             href='#contact'
-            className='p-2 inline-flex text-black bg-amber-300 focus:outline-none hover:bg-slate-800 hover:text-white rounded text-lg'
+            className='lg:text-lg sm:text-s p-2 inline-flex text-black bg-amber-300 focus:outline-none hover:bg-slate-800 hover:text-white rounded'
           >
             Contact Me!
           </a>
           <a
             href='#projects'
-            className='p-2 ml-4 inline-flex text-black bg-amber-300 focus:outline-none hover:bg-slate-800 hover:text-white rounded text-lg'
+            className='p-2 ml-4 inline-flex text-black bg-amber-300 focus:outline-none hover:bg-slate-800 hover:text-white rounded lg:text-lg sm:text-s'
           >
             See My Past Projects!
           </a>
@@ -151,7 +151,7 @@ function About() {
         </div>
       </div> */}
 
-      <div className='row flex justify-center align-items-end'>
+      <div className='pt-10 flex justify-center'>
         <icon className='animate-bounce justify-center self-end fas fa-chevron-down'></icon>
       </div>
     </section>

@@ -4,13 +4,13 @@ function About() {
   return (
     <section
       id='about'
-      style={{ background: "linear-gradient(#f4b393, #9559c5)" }}
-      className='px-20 grid gap-4'
+      style={{ background: "linear-gradient(#f4b393, #7714e4)" }}
+      className='p-20 grid gap-4 h-screen text-gray-900 '
     >
       <div className='gap-4 grid grid-cols-6'>
         <div className='col-span-3 sm:col-span-6'>
-          <p className='tracking-wider font-marker font-bold title-font sm:text-4xl lg:text-5xl font-medium text-gray-900 '>
-            A little bit about me
+          <p className='font-heading font-bold title-font sm:text-4xl lg:text-8xl text-white '>
+            A bit about me
           </p>
         </div>
         <img
@@ -51,7 +51,7 @@ function About() {
 
         <div className='sm:col-span-6 col-span-6 row-span-1 sm-row-span-3'>
           <a href='mailto:rheangocle@gmail.com' className='p-5 hover:underline'>
-            <i className='fas  fa-envelope text-lg text-gray-900 opacity-75'></i>
+            <i className='fas fa-envelope text-xl text-black'></i>
           </a>
 
           <a
@@ -60,7 +60,7 @@ function About() {
             rel='noopener noreferrer'
             className='p-5'
           >
-            <i className='fa-brands fa-linkedin-in text-lg text-gray-900 opacity-75'></i>
+            <i className='fa-brands fa-linkedin-in text-xl text-black'></i>
           </a>
 
           <a
@@ -69,15 +69,15 @@ function About() {
             rel='noopener noreferrer'
             className='p-5'
           >
-            <i className='fa-brands fa-github text-lg text-gray-900 opacity-75'></i>
+            <i className='fa-brands fa-github text-xl text-black'></i>
           </a>
 
           <a href='#' className='p-5 hover:underline'>
-            <i className='fas fa-file-pdf text-lg text-gray-900 opacity-75'></i>
+            <i className='fas fa-file-pdf text-xl text-black'></i>
           </a>
         </div>
       </div>
-      <div className='row mx-auto flex px-10 p-20 md:flex-row md:flex-row items-center'>
+      {/* <div className='row mx-auto flex px-10 p-20 md:flex-row md:flex-row items-center'>
         <div className='my-5 lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-left'>
           <p className='tracking-wider font-marker font-bold title-font sm:text-4xl lg:text-5xl mb-4 font-medium text-gray-900 '>
             A little bit about me
@@ -89,8 +89,7 @@ function About() {
             level developer positions. My main proficiencies are the MERN Stack,
             MySQL & NoSQL. My background is in biochemistry and pharmacy and
             spent 5+ years working in research and development.
-            {/* 
-          My motivation for coding came naturally due to my hobbies keeping me on my computer for long periods of time. These hobbies include streaming and video editing. I really enjoy challenging myself to learn new things such as learning to code.  */}
+          
           </p>
           <img
             className='float-right object-cover object-center rounded-full w-1/5'
@@ -150,11 +149,11 @@ function About() {
             <i className='fas fa-file-pdf text-lg text-gray-900 opacity-75'></i>
           </a>
         </div>
-      </div>
-
-      {/* <div className='pt-20 row flex justify-center align-items-end'>
-        <icon className='animate-bounce justify-center self-end fas fa-chevron-down'></icon>
       </div> */}
+
+      <div className='row flex justify-center align-items-end'>
+        <icon className='animate-bounce justify-center self-end fas fa-chevron-down'></icon>
+      </div>
     </section>
   );
 }

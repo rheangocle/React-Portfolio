@@ -4,17 +4,17 @@ function Ethic() {
   return (
     <section
       id='ethic'
-      style={{ background: "#9559c5" }}
-      className='text-stone-200 h-screen'
+      style={{ background: "#7714e4" }}
+      className='text-stone-200 h-screen pt-20'
     >
       <div className='container mx-auto px-20 py-20 flex md:flex-row flex-col items-end'>
         <div className='lg:flex-grow md:w-2/3 flex flex-col md:items-end md:mb-0 items-center'>
-          <h1 className='tracking-wider font-marker z-0 lg:text-5xl md:text-4xl sm:text-4xl font-bold text-right text-slate-100'>
-            Motivation & Work Ethic
+          <h1 className='font-heading font-bold z-0 lg:text-7xl md:text-4xl sm:text-4xl lg:text-8xl font-bold text-right text-amber-300'>
+            Work Ethic
           </h1>
           <p
-            style={{ background: "#f4b393" }}
-            className='md:text-left text-neutral-800 opacity-75 md:px-10 bg-stone-200/70 rounded-lg p-10 sm:px-5'
+            // style={{ background: "#f4b393" }}
+            className='md:text-left text-neutral-800 md:px-10 bg-stone-200/70 rounded-lg p-10 sm:px-5'
           >
             "I am a very motivated and hard working individual. Coding is a way
             to express my creativeness, critical thinking, and hard work. It

@@ -3,10 +3,14 @@ import { projects } from "../data";
 
 export default function Projects() {
   return (
-    <section id='projects' className='text-gray-400 bg-slate-900 -m-10'>
+    <section
+      id='projects'
+      style={{ background: "linear-gradient(#7714e4, #052dd4)" }}
+      className='text-gray-400 bg-slate-900 -m-10 p-10'
+    >
       <div className='container px-10 py-20 mx-auto text-center lg:px-40'>
         <div className='flex flex-col w-full mb-10'>
-          <h1 className='sm:text-4xl md:text-5xl font-medium title-font mb-4 text-slate-300 font-bold'>
+          <h1 className='font-heading sm:text-4xl md:text-5xl lg:text-8xl font-medium title-font mb-4 text-lime-400 font-bold'>
             Featured Work
           </h1>
           <p className='leading-relaxed text-base'>

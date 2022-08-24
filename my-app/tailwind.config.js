@@ -5,6 +5,7 @@ module.exports = {
     fontFamily: {
       sans: ["nunito", "sans-serif"],
       marker: ["satisfy", "cursive"],
+      heading: ["open sans", "sans,serif"],
     },
     // colors: {
     //   'peach': 'f4b393',

@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <section id='footer' className='sm:p-6 bg-slate-900'>
-      <div className='md:flex md:justify-between'>
+      <div className='md:flex md:justify-between grid'>
         <div className='mb-5 md:mb-0 flex items-center'>
           <a href='https://flowbite.com/' className='flex items-center'>
             <img
@@ -77,6 +77,7 @@ export default function Footer() {
         </div>
       </div>
       <hr className='border-stone-500 sm:mx-auto border-gray-700 lg:my-8' />
+
       <div className='pb-5 sm:flex sm:items-center sm:justify-center'>
         <span className='text-sm text-gray-500 sm:text-center'>
           © 2022{" "}

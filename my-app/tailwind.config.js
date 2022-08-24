@@ -3,7 +3,8 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     fontFamily: {
-      sans: ["montserrat", "sans-serif"],
+      sans: ["nunito", "sans-serif"],
+      marker: ["satisfy", "cursive"],
     },
     // colors: {
     //   'peach': 'f4b393',
@@ -11,7 +12,36 @@ module.exports = {
     //   'lightgreen': 'afc97e',
     //   'medblue': '0b3954',
     // },
-    extend: {},
+    extend: {
+      keyframes: {
+        wave: {
+          "0%": {
+            "margin-right": "-50%",
+          },
+          "50%": {
+            "margin-left": "-50%",
+          },
+        },
+        bounce: {
+          "0%": {
+            transform: "translateY(-25%)",
+            animationTimingFunction: "cubic-bezier(0.8, 0, 1, 1)",
+          },
+          "100%": {
+            transform: "translateY(-25%)",
+            animationTimingFunction: "cubic-bezier(0.8, 0, 1, 1)",
+          },
+          "50%": {
+            transform: "translateY(0)",
+            animationTimingFunction: "cubic-bezier(0, 0, 0.2, 1)",
+          },
+        },
+      },
+    },
+    animation: {
+      wave: "wave 3s ease-in-out 1",
+      bounce: "bounce 1s infinite",
+    },
   },
   plugins: [require("flowbite/plugin")],
 };

@@ -7,7 +7,37 @@ function Navbar() {
 
   return (
     <section id='navbar'>
-      <nav className='relative flex flex-wrap items-center justify-between px-4 py-3 bg-blue-400 mb-3'>
+      <nav className='flex items-start justify-center'>
+        <button
+          className='text-s pr-2 font-bold uppercase text-stone-800 hover:underline hover:underline-offset-8'
+          href=''
+          type='button'
+        >
+          Home
+        </button>
+        <button
+          className='text-s pr-2 font-bold uppercase text-stone-800 hover:underline hover:underline-offset-8'
+          href=''
+          type='button'
+        >
+          WHO
+        </button>
+        <button
+          className='text-s pr-2 font-bold uppercase text-stone-800 hover:underline hover:underline-offset-8'
+          href=''
+          type='button'
+        >
+          what
+        </button>
+        <button
+          className='text-s pr-2 font-bold uppercase text-stone-800 hover:underline hover:underline-offset-8'
+          href=''
+          type='button'
+        >
+          work
+        </button>
+      </nav>
+      {/* <nav className='relative flex flex-wrap items-center justify-between px-4 py-3 bg-blue-400 mb-3'>
         <div className='container px-4 mx-auto flex flex-wrap items-center justify-between'>
           <div className='w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start'>
             <button
@@ -20,7 +50,6 @@ function Navbar() {
               <icon className='text-stone-300 px-2 fas fa-angle-down'></icon>
             </button>
 
-            {/* <!-- Dropdown menu --> */}
             <div
               id='dropdownNavbar'
               className={
@@ -98,7 +127,7 @@ function Navbar() {
             </ul>
           </div>
         </div>
-      </nav>
+      </nav> */}
     </section>
   );
 }

@@ -8,7 +8,7 @@ function About() {
       className='p-10 h-screen text-gray-900 '
     >
       <div className='justify-items-center gap-6 grid grid-cols-6'>
-        <div className='col-span-6'>
+        <div className='py-5 col-span-6'>
           <p className='font-heading font-bold title-font sm:text-4xl lg:text-8xl text-white'>
             A bit about me
           </p>
@@ -18,7 +18,7 @@ function About() {
           alt='Profile picture'
           src='./images/image0.jpeg'
         />
-        <div className='px-10 sm:col-span-6 col-span-6 row-span-3'>
+        <div className='my-5 bg-white/75 px-10 py-5 sm:col-span-6 col-span-6 row-span-3'>
           <p className='pb-5 lg:text-lg sm:text-s'>
             Born in Vietnam, raised in Denver, CO, and recently moved to
             Tallahassee, FL. I recently graduated from a Full Stack Web
@@ -45,7 +45,7 @@ function About() {
             href='#projects'
             className='p-2 ml-4 inline-flex text-black bg-amber-300 focus:outline-none hover:bg-slate-800 hover:text-white rounded lg:text-lg sm:text-s'
           >
-            See My Past Projects!
+            View Past Projects!
           </a>
         </div>
 

@@ -5,13 +5,18 @@ function Ethic() {
     <section
       id='ethic'
       style={{ background: "#7714e4" }}
-      className='text-stone-200 h-screen pt-20'
+      className='text-stone-200 h-screen'
     >
       <div className='container mx-auto px-20 py-20 flex md:flex-row flex-col items-end'>
         <div className='lg:flex-grow md:w-2/3 flex flex-col md:items-end md:mb-0 items-center'>
-          <h1 className='py-20 font-heading font-bold z-0 lg:text-8xl md:text-4xl sm:text-4xl lg:text-8xl font-bold text-right text-amber-300'>
+          <h1
+            style={{ color: "yellow" }}
+            className='animate-slide py-20 font-heading font-bold z-0 lg:text-8xl sm:text-8xl font-bold text-right text-yellow'
+          >
             Work Ethic
           </h1>
+        </div>
+        <div>
           <p
             // style={{ background: "#f4b393" }}
             className='p-10 md:text-left text-neutral-800 md:px-10 bg-stone-200/70 sm:px-5'

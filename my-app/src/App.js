@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import "./index.css";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
@@ -19,9 +18,9 @@ function App() {
 
       <Ethic />
       <Projects />
-      {/* <Skills />
+      <Skills />
       <Contact />
-      <Footer /> */}
+      <Footer />
     </main>
   );
 }

@@ -17,10 +17,10 @@ module.exports = {
       keyframes: {
         wave: {
           "0%": {
-            "margin-right": "-50%",
+            "margin-left": "-50%",
           },
           "50%": {
-            "margin-left": "-50%",
+            "margin-right": "-75%",
           },
         },
         bounce: {
@@ -37,11 +37,20 @@ module.exports = {
             animationTimingFunction: "cubic-bezier(0, 0, 0.2, 1)",
           },
         },
+        slide: {
+          "0%": {
+            "margin-right": "-75%",
+          },
+          "50%": {
+            "margin-left": "-50%",
+          },
+        },
       },
     },
     animation: {
       wave: "wave 3s ease-in-out 1",
       bounce: "bounce 1s infinite",
+      slide: "slide ease-out 1.5s 1",
     },
   },
   plugins: [require("flowbite/plugin")],

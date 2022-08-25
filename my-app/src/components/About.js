@@ -5,7 +5,7 @@ function About() {
     <section
       id='about'
       style={{ background: "linear-gradient(#f4b393, #7714e4)" }}
-      className='p-10 text-gray-900 '
+      className=' text-gray-900'
     >
       <div className='justify-items-center gap-6 grid grid-cols-6'>
         <div className='py-5 col-span-6'>
@@ -19,7 +19,7 @@ function About() {
           src='./images/image0.jpeg'
         />
 
-        <div className=' bg-white/75 px-10 py-5 sm:col-span-6 col-span-6 row-span-3'>
+        <div className='w-2/3 p-10 bg-white/75 sm:col-span-6 col-span-6 row-span-3'>
           <p className='pb-5 lg:text-lg sm:text-s'>
             Born in Vietnam, raised in Denver, CO, and recently moved to
             Tallahassee, FL. I recently graduated from a Full Stack Web

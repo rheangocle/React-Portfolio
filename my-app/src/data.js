@@ -64,7 +64,7 @@ export const projects = [
     subtitle:
       " Node, Express, MySQL, Twitch API, Handlebars, Sequelize, and Bootstrap.",
     description:
-      "Users can create a profile to search for video games and share their interests with others by leaving reviews. **Won the Overall Best Application award in class.",
+      "Users can create a profile to search for and favorite video games. Before buying a new video game, users can what others say about the games via reviews. The challenge was integrating an API with a separate dataset. **Awarded Overall Best Application in class.",
     image: "./images/Nexus.gif",
     deployed: "https://intense-bastion-69389.herokuapp.com/",
     github: "https://github.com/Servbt/Nexus",
@@ -74,7 +74,7 @@ export const projects = [
     title: "Animame",
     subtitle: "JavaScript, Bulma, Tasty API, Kitsu API, and jQuery.",
     description:
-      "Anime lovers can discover recipes from anime shows to enjoy delicious food from the show at home.",
+      "Anime lovers can discover recipes from anime shows to enjoy delicious food from the show at home. This application joins two different APIs together (food and anime) to offer a unique user experience.",
     image: "./images/Animame.gif",
     deployed: "https://rheangocle.github.io/Animame/",
     github: "https://github.com/rheangocle/Animame",
@@ -84,7 +84,7 @@ export const projects = [
     title: "Employee Tracker",
     subtitle: " Node, MySQL, and Inquirer",
     description:
-      "A content management system to to view or update a company's employee database.",
+      "A content management system to view or update a company's employee database all from the command line.",
     image: "./images/employee.gif",
     deployed: "https://github.com/rheangocle/Employee-Tracker",
     github: "https://github.com/rheangocle/Employee-Tracker",

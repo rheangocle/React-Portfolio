@@ -5,13 +5,13 @@ function Ethic() {
     <section
       id='ethic'
       style={{ background: "#7714e4" }}
-      className='h-screen pt-10'
+      className='flex justify-center align-center flex-wrap h-screen'
     >
-      <div className='container mx-auto px-10 flex md:flex-row flex-col items-center'>
+      <div className='w-2/3 container mx-auto flex md:flex-row flex-col items-center'>
         <div className='lg:flex-grow md:w-2/3 flex flex-col md:items-end md:mb-0 items-center'>
           <h1
             style={{ color: "yellow" }}
-            className='animate-slide pt-20 pb-10 px-10 font-heading font-bold z-0 lg:text-8xl sm:text-8xl font-bold text-right text-yellow'
+            className='animate-slide p-10 font-heading font-bold lg:text-8xl sm:text-8xl text-right text-yellow'
           >
             Work Ethic
           </h1>
@@ -19,7 +19,7 @@ function Ethic() {
         <div>
           <p
             style={{ background: "#f87749" }}
-            className='p-10 md:text-left text-neutral-800 md:px-10 bg-stone-200/70 sm:px-5'
+            className='p-10 text-left text-neutral-800'
           >
             "I am a very motivated and hard working individual. Coding is a way
             for me to express my creativeness. I enjoy applying critical
@@ -32,10 +32,9 @@ function Ethic() {
             experience in coding!"
           </p>
         </div>
-
-        <div className='pt-20 flex justify-center'>
-          <icon className='animate-bounce justify-center self-end fas fa-chevron-down'></icon>
-        </div>
+      </div>
+      <div className='w-full flex justify-center'>
+        <icon className='animate-bounce self-center fas fa-chevron-down'></icon>
       </div>
     </section>
   );

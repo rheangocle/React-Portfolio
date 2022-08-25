@@ -9,18 +9,23 @@ const styles = {
 };
 export default function Skills() {
   return (
-    <section id='skills' style={styles.background} className='px-10'>
-      <div className='container p-10 flex md:flex-row flex-col items-center'>
+    <section
+      id='skills'
+      style={styles.background}
+      className='p-10 flex justify-center'
+    >
+      <div className='container justify-center flex-wrap p-10 flex md:flex-row flex-col items-center'>
         <h1 className='z-0 lg:text-7xl md:text-4xl sm:text-4xl font-heading font-bold md:text-right sm:text-left text-slate-100 pb-10'>
-          Technologies
+          Technologies + Skills
         </h1>
-        <div className='container flex flex-wrap items-stretch lg:px-10 sm:px-5 lg:w-full sm:mx-auto"'>
+
+        <div className='container justify-evenly flex flex-wrap lg:py-10 lg:px-40 sm:px-5 lg:w-full sm:mx-auto"'>
           {skills.map((skill) => (
-            <div className='flex flex-wrap items-evenly px-4'>
+            <div className='flex flex-wrap px-3 py-2'>
               <span className='font-semibold'>
                 {skill.name}
                 <img
-                  className='pl-1 mt-1 mb-2 py-1 animate-bounce'
+                  className='justify-self-center pt-3 animate-bounce'
                   src={skill.link}
                   alt=''
                 />

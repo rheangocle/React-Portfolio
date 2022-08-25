@@ -32,7 +32,7 @@ function Main() {
   return (
     <div
       style={{ background: "linear-gradient(#f87749, #f4b393)" }}
-      className='grid bg-orange-400 flex justify-center w-screen h-screen bg-orange px-10 py-5'
+      className='grid flex justify-center w-screen h-screen bg-orange px-10 py-5'
     >
       <nav className='row flex items-start justify-center'>
         {sections.map((section) => (
@@ -52,7 +52,7 @@ function Main() {
         </p>
       </div>
       <div className='row flex justify-center'>
-        <h2 className='pt-5 self-center font-bold text-xl text-stone-700'>
+        <h2 className='pt-5 self-center font-bold text-xl text-white'>
           Hey there 🖐️, welcome to my page!
         </h2>
       </div>

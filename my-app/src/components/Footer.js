@@ -43,7 +43,12 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href='#' className='hover:underline'>
+                <a
+                  href='./images/Resume.pdf'
+                  target='_blank'
+                  rel='noopener norefferer'
+                  className='hover:underline'
+                >
                   <i className='fas fa-file-pdf text-lg text-stone-500 opacity-75'></i>
                   <span className='ml-2'>Resume</span>
                 </a>

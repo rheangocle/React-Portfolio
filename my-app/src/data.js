@@ -51,10 +51,15 @@ export const skills = [
     name: "Mongoose",
     link: "./mongoose.svg",
   },
+  {
+    name: "GraphQL",
+    link: "./mongoose.svg",
+  },
 ];
 
 export const projects = [
   {
+    id: 1,
     title: "NEXUS",
     subtitle:
       " Node, Express, MySQL, Twitch API, Handlebars, Sequelize, and Bootstrap.",
@@ -65,6 +70,7 @@ export const projects = [
     github: "https://github.com/Servbt/Nexus",
   },
   {
+    id: 2,
     title: "Animame",
     subtitle: "JavaScript, Bulma, Tasty API, Kitsu API, and jQuery.",
     description:
@@ -74,6 +80,7 @@ export const projects = [
     github: "https://github.com/rheangocle/Animame",
   },
   {
+    id: 3,
     title: "Employee Tracker",
     subtitle: " Node, MySQL, and Inquirer",
     description:

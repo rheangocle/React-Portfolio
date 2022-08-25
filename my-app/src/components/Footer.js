@@ -1,11 +1,5 @@
 import React from "react";
 
-const styles = {
-  text: {
-    color: "text-stone-900",
-  },
-};
-
 export default function Footer() {
   return (
     <section id='footer' className='sm:p-6 bg-white text-black'>

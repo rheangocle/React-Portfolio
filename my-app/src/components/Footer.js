@@ -18,7 +18,7 @@ export default function Footer() {
               className='h-10 m-5 rounded'
               alt='RL logo/icon'
             />
-            <span className='font-heading text-2xl font-bold text-stone-900'>
+            <span className='font-heading text-2xl font-bold text-stone-600'>
               Thanks for visiting!
             </span>
           </a>

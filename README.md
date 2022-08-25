@@ -7,7 +7,7 @@ You can reach me via rheangocle@gmail.com. You can see more of my work on my Git
 
 ## Preview
 
-![Screen recording/gif of Rhea's portfolio]().
+![Screen recording/gif of Rhea's portfolio](./my-app/public/images/Capture.PNG).
 
 ---
 Copyright © 2022 Rhea Le

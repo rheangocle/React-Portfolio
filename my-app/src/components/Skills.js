@@ -12,7 +12,7 @@ export default function Skills() {
     <section
       id='skills'
       style={styles.background}
-      className='p-10 flex justify-center'
+      className='px-10 py-20 flex justify-center'
     >
       <div className='container justify-center flex-wrap p-10 flex md:flex-row flex-col items-center'>
         <h1 className='z-0 lg:text-7xl md:text-4xl sm:text-4xl font-heading font-bold md:text-right sm:text-left text-slate-100 pb-10'>

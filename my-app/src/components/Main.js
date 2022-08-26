@@ -4,7 +4,7 @@ const sections = [
   {
     id: 1,
     name: "home",
-    path: "/",
+    path: "",
   },
   {
     id: 2,

@@ -44,13 +44,13 @@ export default function Contact() {
     <section
       id='contact'
       style={styles.background}
-      className='=flex flex-wrap px-10 py-20'
+      className='justify-center flex flex-wrap px-10 py-20'
     >
       <form
         name='contact'
-        className='lg:w-2/3 sm:w-full  flex flex-col justify-center'
+        className='lg:w-1/2 sm:w-full  flex flex-col justify-center'
       >
-        <h2 className='py-10 font-heading font-bold sm:text-4xl lg:text-6xl title-font'>
+        <h2 className='pb-3 font-heading font-bold sm:text-4xl lg:text-6xl title-font'>
           Send me a message!
         </h2>
         <p className='leading-relaxed '>

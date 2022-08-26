@@ -5,7 +5,7 @@ function Ethic() {
     <section
       id='ethic'
       style={{ background: "#7714e4" }}
-      className='flex justify-center align-center flex-wrap py-40'
+      className='flex justify-center align-center flex-wrap py-20'
     >
       <div className='w-2/3 container mx-auto flex md:flex-row flex-col items-center'>
         <div className='lg:flex-grow md:w-2/3 flex flex-col md:items-end md:mb-0 items-center'>

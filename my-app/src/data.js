@@ -41,19 +41,19 @@ export const skills = [
   },
   {
     name: "Express.js",
-    link: "./",
+    link: "",
   },
   {
     name: "Bulma",
-    link: "./bulma.svg",
+    link: "",
   },
   {
     name: "Mongoose",
-    link: "./mongoose.svg",
+    link: "",
   },
   {
     name: "GraphQL",
-    link: "./mongoose.svg",
+    link: "",
   },
 ];
 

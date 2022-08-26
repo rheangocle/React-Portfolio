@@ -19,13 +19,13 @@ export default function Skills() {
           Technologies + Skills
         </h1>
 
-        <div className='container justify-evenly flex flex-wrap lg:py-10 lg:px-40 sm:px-5 lg:w-full sm:mx-auto"'>
+        <div className='container justify-start flex flex-wrap lg:py-10 lg:px-40 sm:px-5 lg:w-full sm:mx-auto"'>
           {skills.map((skill) => (
-            <div className='flex flex-wrap px-3 py-2'>
+            <div className='flex flex-wrap px-5 py-2 justify-items-center'>
               <span className='font-semibold'>
                 {skill.name}
                 <img
-                  className='justify-self-center pt-3 animate-bounce'
+                  className='pt-3 pl-1 animate-bounce self-center'
                   src={skill.link}
                   alt=''
                 />

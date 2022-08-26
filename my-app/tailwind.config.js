@@ -7,12 +7,6 @@ module.exports = {
       marker: ["satisfy", "cursive"],
       heading: ["open sans", "sans,serif"],
     },
-    // colors: {
-    //   'peach': 'f4b393',
-    //   'lightblue': '57b8ff',
-    //   'lightgreen': 'afc97e',
-    //   'medblue': '0b3954',
-    // },
     extend: {
       keyframes: {
         wave: {
@@ -20,7 +14,7 @@ module.exports = {
             "margin-left": "-50%",
           },
           "50%": {
-            "margin-right": "-75%",
+            "margin-right": "-50%",
           },
         },
         bounce: {

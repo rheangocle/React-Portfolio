@@ -57,9 +57,9 @@ export default function Projects() {
               (toggle ? "" : " hidden")
             }
           >
-            <div className='relative p-3'>
+            <div className='relative p-5'>
               <div className='relative bg-stone-200 dark:bg-gray-700'>
-                <div className='flex justify-between items-start p-4 dark:border-gray-600'>
+                <div className='flex justify-between items-start p-5 dark:border-gray-600'>
                   <button
                     type='button'
                     className='text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white'
@@ -82,18 +82,18 @@ export default function Projects() {
                   </button>
                 </div>
 
-                <div className='px-20 py-10 space-y-6'>
+                <div className='px-10 py-10 space-y-6'>
                   <h1 className='font-heading font-bold title-font text-2xl  text-black mb-3'>
                     {projects[selectedInd].title}
                   </h1>
-                  <p className='leading-relaxed text-black p-10 text-md'>
+                  <p className='leading-relaxed text-black p-5 text-md'>
                     {projects[selectedInd].description}
                   </p>
                   <h2 className='tracking-widest text-md title-font font-bold text-green-400'>
                     Technologies: {projects[selectedInd].subtitle}
                   </h2>
                 </div>
-                <div className='flex justify-center p-10 space-x-3 rounded-b  dark:border-gray-600'>
+                <div className='flex justify-center p-5 space-x-3 rounded-b  dark:border-gray-600'>
                   <a
                     href={projects[selectedInd].github}
                     className='hover:bg-blue-700 text-white bg-black rounded-lg p-2 font-semibold tracking-wide'

@@ -74,10 +74,6 @@ export default function Footer() {
                   <span className='ml-2'>rheangocle@gmail</span>
                 </a>
               </li>
-              <li className='mb-4'>
-                <i className='fas fa-mobile-alt text-md text-stone-600 opacity-75'></i>
-                <span className='ml-2'>(720)648-8844</span>
-              </li>
             </ul>
           </div>
         </div>

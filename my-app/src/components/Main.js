@@ -47,7 +47,7 @@ function Main() {
       </nav>
 
       <div className='row flex justify-center '>
-        <p className='animate-wave self-end text-white font-marker transform -skew-y-12 lg:scale-150 text-9xl sm:scale-100 px-10'>
+        <p className='animate-wave self-end text-white font-marker transform -skew-y-12 lg:scale-150 text-9xl sm:scale-50 px-10'>
           Rhea Le
         </p>
       </div>

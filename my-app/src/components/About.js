@@ -5,9 +5,9 @@ function About() {
     <section
       id='about'
       style={{ background: "linear-gradient(#f4b393, #7714e4)" }}
-      className=' text-gray-900'
+      className=' py-10 text-gray-900'
     >
-      <div className='justify-items-center gap-6 grid grid-cols-6'>
+      <div className='py-5 justify-items-center gap-6 grid grid-cols-6'>
         <div className='py-5 col-span-6'>
           <p className='font-heading font-bold title-font sm:text-4xl lg:text-8xl text-white'>
             A bit about me
@@ -84,7 +84,7 @@ function About() {
         </div>
       </div>
 
-      <div className='pt-20 flex justify-center'>
+      <div className='pt-40 flex justify-center'>
         <icon className='animate-bounce justify-center self-end fas fa-chevron-down'></icon>
       </div>
     </section>

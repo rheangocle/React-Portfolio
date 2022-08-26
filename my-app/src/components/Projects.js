@@ -20,7 +20,7 @@ export default function Projects() {
       style={styles.background}
       className='text-gray-400 bg-slate-900 pb-20'
     >
-      <div className='items-center flex flex-col w-full mb-10 p-10'>
+      <div className='items-center flex flex-col w-full mb-10 px-10 pt-10'>
         <h1 className='font-heading sm:text-4xl md:text-5xl lg:text-8xl title-font mb-4 text-lime-400 font-bold'>
           Featured Projects
         </h1>

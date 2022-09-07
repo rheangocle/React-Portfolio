@@ -59,6 +59,16 @@ export const skills = [
 
 export const projects = [
   {
+    id: 4,
+    title: "Elevate",
+    subtitle: "MERN Stack, Mongoose, GraphQL, Bootstrap.",
+    description:
+      "An educational platform where users can share information by creating courses, modules, lectures, and activities. Users can learn from all the courses on the site and share information with one another.",
+    image: "./image/Elevate.gif",
+    deployed: "https://elevate-2.herokuapp.com/",
+    github: "https://github.com/jshuaaaa/elevate",
+  },
+  {
     id: 1,
     title: "NEXUS",
     subtitle:
@@ -82,7 +92,7 @@ export const projects = [
   {
     id: 3,
     title: "Employee Tracker",
-    subtitle: " Node, MySQL, and Inquirer",
+    subtitle: "Node, MySQL, and Inquirer",
     description:
       "A content management system to view or update a company's employee database all from the command line.",
     image: "./images/employee.gif",

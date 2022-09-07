@@ -64,7 +64,7 @@ export const projects = [
     subtitle: "MERN Stack, Mongoose, GraphQL, Bootstrap.",
     description:
       "An educational platform where users can share information by creating courses, modules, lectures, and activities. Users can learn from all the courses on the site and share information with one another.",
-    image: "./image/Elevate.gif",
+    image: "./image/elevate.gif",
     deployed: "https://elevate-2.herokuapp.com/",
     github: "https://github.com/jshuaaaa/elevate",
   },

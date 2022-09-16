@@ -12,8 +12,8 @@ function App() {
   return (
     <main>
       <Main />
-      <About />
-      <Ethic />
+      {/* <About /> */}
+      {/* <Ethic /> */}
       <Projects />
       <Skills />
       <Contact />

@@ -61,9 +61,10 @@ export const projects = [
   {
     id: 4,
     title: "Elevate",
-    subtitle: "MERN Stack, Mongoose, GraphQL, Bootstrap.",
+    subtitle:
+      "React.js, Express.js, Node.js, MongoDB, Mongoose, GraphQL, Bootstrap, Framer Motion.",
     description:
-      "An educational platform where users can share information by creating courses, modules, lectures, and activities. Users can learn from all the courses on the site and share information with one another.",
+      "An educational platform created using the MERN Stack where users can share information by creating courses, modules, lectures, and activities. Users can learn from all the courses on the site and share information with one another.",
     image: "./images/elevate.gif",
     deployed: "https://elevate-2.herokuapp.com/",
     github: "https://github.com/jshuaaaa/elevate",
@@ -72,7 +73,7 @@ export const projects = [
     id: 1,
     title: "NEXUS",
     subtitle:
-      " Node, Express, MySQL, Twitch API, Handlebars, Sequelize, and Bootstrap.",
+      " Node, Express, MySQL, Twitch API, Handlebars, Sequelize, AJAX, and Bootstrap.",
     description:
       "Users can create a profile to search for and favorite video games. Before buying a new video game, users can what others say about the games via reviews. The challenge was integrating an API with a separate dataset. **Awarded Overall Best Application in class.",
     image: "./images/Nexus.gif",

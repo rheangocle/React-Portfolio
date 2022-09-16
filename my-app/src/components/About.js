@@ -10,23 +10,23 @@ function About() {
       <div className='py-5 justify-items-center gap-6 grid grid-cols-6'>
         <div className='py-5 col-span-6'>
           <p className='font-heading font-bold title-font sm:text-4xl lg:text-8xl text-white'>
-            A bit about me
+            About me
           </p>
         </div>
-        <img
+        {/* <img
           className='col-span-6 row-span-1 self-end rounded-full w-40 hover:animate-bounce'
           alt='Profile picture'
           src='./images/image0.jpeg'
-        />
+        /> */}
 
         <div className='w-2/3 p-10 bg-white/75 sm:col-span-6 col-span-6 row-span-3'>
           <p className='pb-5 lg:text-lg sm:text-s'>
             Born in Vietnam, raised in Denver, CO, and recently moved to
-            Tallahassee, FL. I recently graduated from a Full Stack Web
-            Development course and currently seeking remote and local entry
-            level developer positions. My main proficiencies are the MERN Stack,
-            MySQL & NoSQL. My background is in biochemistry and pharmacy and
-            spent 5+ years working in research and development.
+            Tallahassee, FL. I am a Full Stack Web Developer seeking remote and
+            local (Tallahassee, FL) junior developer positions. My main
+            proficiencies are the MERN Stack, MySQL & NoSQL. I have collaborated
+            in teams of 4-6 people. My background is in biochemistry, pharmacy
+            and research and development.
           </p>
           <p className='lg:text-lg sm:text-s'>
             <i className='fa-lg fas fa-play-circle animate-spin p-1'> </i>

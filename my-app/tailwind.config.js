@@ -14,7 +14,7 @@ module.exports = {
             "margin-left": "-50%",
           },
           "50%": {
-            "margin-right": "-50%",
+            "margin-right": "-20%",
           },
         },
         bounce: {

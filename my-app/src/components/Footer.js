@@ -12,7 +12,7 @@ export default function Footer() {
               className='h-10 m-5 rounded'
               alt='RL logo/icon'
             />
-            <span className='font-heading text-2xl font-bold text-stone-600'>
+            <span className='font-heading text-2xl font-bold text-stone-900'>
               Thanks for visiting!
             </span>
           </a>
@@ -22,14 +22,14 @@ export default function Footer() {
             <h2 className=' text-stone-900 mb-6 text-sm font-semibold uppercase'>
               Links
             </h2>
-            <ul className='text-stone-400'>
+            <ul className='text-stone-800'>
               <li className='mb-4'>
                 <a
                   href='https://www.linkedin.com/in/rhea-le-39165280/'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <i className='fa-brands fa-linkedin-in text-md text-stone-600 opacity-75'></i>
+                  <i className='fa-brands fa-linkedin-in text-md text-stone-900'></i>
                   <span className='ml-2'>LinkedIn</span>
                 </a>
               </li>
@@ -39,18 +39,18 @@ export default function Footer() {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <i className='fa-brands fa-github text-md text-stone-600 opacity-75'></i>
+                  <i className='fa-brands fa-github text-md text-stone-900'></i>
                   <span className='ml-2'>GitHub</span>
                 </a>
               </li>
               <li>
                 <a
-                  href='./images/Resume.pdf'
+                  href='https://docs.google.com/document/d/1_q9lLjh5TBEwGS7s5doKBEIJM_cp7mRK/edit?usp=sharing&ouid=103311015899579543846&rtpof=true&sd=true'
                   target='_blank'
                   rel='noopener norefferer'
                   className='hover:underline'
                 >
-                  <i className='fas fa-file-pdf text-md text-stone-600 opacity-75'></i>
+                  <i className='fas fa-file-pdf text-md text-stone-900'></i>
                   <span className='ml-2'>Resume</span>
                 </a>
               </li>
@@ -60,9 +60,9 @@ export default function Footer() {
             <h2 className='mb-6 text-sm font-semibold text-stone-900 uppercase'>
               Info
             </h2>
-            <ul className='text-stone-400'>
+            <ul className='text-stone-800'>
               <li className='mb-4'>
-                <i className='rounded bg-blue fas fa-map-marker-alt text-md text-stone-600 opacity-75'></i>
+                <i className='rounded bg-blue fas fa-map-marker-alt text-md text-stone-900'></i>
                 <span className='ml-2'>Tallahassee, FL</span>
               </li>
               <li className='mb-4'>
@@ -70,7 +70,7 @@ export default function Footer() {
                   href='mailto:rheangocle@gmail.com'
                   className='hover:underline'
                 >
-                  <i className='fas  fa-envelope text-md text-stone-600 opacity-75'></i>
+                  <i className='fas  fa-envelope text-md text-stone-900'></i>
                   <span className='ml-2'>rheangocle@gmail</span>
                 </a>
               </li>

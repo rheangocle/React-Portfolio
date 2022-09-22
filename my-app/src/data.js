@@ -64,7 +64,7 @@ export const projects = [
     subtitle:
       "React.js, Express.js, Node.js, MongoDB, Mongoose, GraphQL, Bootstrap, Framer Motion.",
     description:
-      "An educational platform created using the MERN Stack where users can share information by creating courses, modules, lectures, and activities. Users can learn from all the courses on the site and share information with one another.",
+      "Co-created prototype learning management system (LMS) in MERN Stack, Apollo GraphQL, Mongoose, Heroku, React Bootstrap, and React Router enabling educators to host embedded video lessons and to collaborate with students. Developed seamless user experience via integration of front-end routing using React Router DOM, and with back-end NoSQL MongoDB data framework. Enabled client user queries and responses via application of GraphQL server.",
     image: "./images/elevate.gif",
     deployed: "https://elevate-2.herokuapp.com/",
     github: "https://github.com/jshuaaaa/elevate",
@@ -75,9 +75,9 @@ export const projects = [
     subtitle:
       " Node, Express, MySQL, Twitch API, Handlebars, Sequelize, AJAX, and Bootstrap.",
     description:
-      "Users can create a profile to search for and favorite video games. Before buying a new video game, users can what others say about the games via reviews. The challenge was integrating an API with a separate dataset. **Awarded Overall Best Application in class.",
+      "Architected and developed video game guide and review aggregator as member of project team. Built functionality and back-end database in MySQL enabling users to create unique profiles, build lists of favorite games, and leave reviews. Produced app in Node, Express, Ajax, MySQL, Handlebars, Sequelize, and Bootstrap. Successfully integrated complex data sets. Pulled review data from IGN.com via REST API with Ajax and Twitch streaming connections via Twitch API. Debugged application front-end and back-end. Awarded “Best Overall Application” in class.",
     image: "./images/Nexus.gif",
-    deployed: "https://intense-bastion-69389.herokuapp.com/",
+    deployed: "https://still-sea-39292.herokuapp.com/",
     github: "https://github.com/Servbt/Nexus",
   },
   {
@@ -85,7 +85,7 @@ export const projects = [
     title: "Animame",
     subtitle: "JavaScript, Bulma, Tasty API, Kitsu API, and jQuery.",
     description:
-      "Anime lovers can discover recipes from anime shows to enjoy delicious food from the show at home. This application joins two different APIs together (food and anime) to offer a unique user experience.",
+      "Project managed team in the design, development, and test of JavaScript-based pop culture web-based application enabling users to search database of anime shows presented via Kitsu API. Delivered responsive UI/UX site and features using Bootstrap. Used Tasty API, jQuery, and Bulma to extract, format, and display corresponding recipes of dishes featured in selected shows.",
     image: "./images/Animame.gif",
     deployed: "https://rheangocle.github.io/Animame/",
     github: "https://github.com/rheangocle/Animame",

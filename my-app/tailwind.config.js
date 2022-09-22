@@ -8,6 +8,9 @@ module.exports = {
       heading: ["open sans", "sans,serif"],
     },
     extend: {
+      backgroundImage: {
+        hero: "url('../public/images/cool.png')",
+      },
       keyframes: {
         wave: {
           "0%": {

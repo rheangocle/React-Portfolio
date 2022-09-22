@@ -1,0 +1,14 @@
+
+
+.test {
+  background: white;
+}
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: rgb(244, 46, 46);
+  transform-origin: 0%;
+}

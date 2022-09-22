@@ -45,7 +45,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href='https://docs.google.com/document/d/1_q9lLjh5TBEwGS7s5doKBEIJM_cp7mRK/edit?usp=sharing&ouid=103311015899579543846&rtpof=true&sd=true'
+                  href='./images/Resume.pdf'
                   target='_blank'
                   rel='noopener norefferer'
                   className='hover:underline'

@@ -18,7 +18,7 @@ export default function Projects() {
     <section
       id='projects'
       style={styles.background}
-      className='text-gray-400 bg-slate-900 pb-20 h-screen'
+      className='text-gray-400 bg-slate-900 pb-20'
     >
       <div className='items-center flex flex-col w-full mb-10 px-10 pt-10'>
         <h1 className='font-heading sm:text-4xl md:text-5xl lg:text-8xl title-font mb-4 text-slate-100 font-bold'>
